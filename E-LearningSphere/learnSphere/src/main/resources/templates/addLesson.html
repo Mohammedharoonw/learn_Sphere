@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<title>Add Lesson</title>
+</head>
+<body>
+<h1>Add Lesson</h1>
+<fieldset>
+<form action="/lesson" method="post">
+<div class="col-3">
+<input type="text" name="courseId" class="form-control"  placeholder="courseId">
+</div>
+<br>
+<div class="col-3">
+<input type="text" name="lessonId" class="form-control"  placeholder="lessonId">
+</div>
+<br>
+<div class="col-3">
+<input type="text" name="lessonName" class="form-control"  placeholder="lessonName">
+</div>
+<br>
+<div class="col-3">
+<input type="text" name="topic" class="form-control"  placeholder="topic">
+</div>
+<br>
+<div class="col-3">
+<input type="text" name="link" class="form-control"  placeholder="link">
+</div>
+<br>
+ <button class="btn btn-primary" type="submit">Add Lesson</button>
+
+</form>
+
+
+
+</fieldset>
+</body>
+</html>
